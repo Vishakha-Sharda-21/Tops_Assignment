@@ -1,0 +1,46 @@
+Task 1 :
+
+Observation: Low Lr
+
+The model learned very slowly.
+The decision boundary changed gradually.
+Training was stable but required many epochs.
+
+
+Observation: High Lr
+
+The model learned much faster.
+The decision boundary changed aggressively.
+Training became unstable and sometimes failed to converge.
+
+======================================================================
+
+Task 2
+
+Biological Neuron
+
+- Dendrites receive signals.
+- Soma processes signals.
+- Axon sends output.
+
+Artificial Neuron
+
+- Inputs receive data.
+- Weights determine importance.
+- Activation function decides output.
+
+======================================================================
+
+Task 3
+
+Instagram :
+
+Feature: Reels Recommendation
+
+How Deep Learning Helps:
+
+Instagram analyzes user interactions,
+watch time, likes, shares, and comments.
+
+Deep learning predicts which reels
+a user is most likely to watch.
