@@ -1,0 +1,70 @@
+What is Generative AI?
+
+Task 1: What is Generative AI?
+
+Generative AI (GenAI) is a type of artificial intelligence that can create new content such as text, images, music, videos, and code. It learns patterns from large amounts of existing data and uses those patterns to generate new and meaningful content. For example, ChatGPT can generate human-like text and answer questions, while DALL-E can create images from text descriptions. Unlike traditional AI, which mainly predicts or classifies information, GenAI focuses on creating new content.
+
+**Two real-world examples:**
+
+1. **ChatGPT:** Generates text, answers questions, summarizes information, and helps write content or code.
+2. **DALL-E:** Generates new images based on text prompts provided by the user.
+
+---
+
+Task 2: GenAI vs Traditional AI
+
+| Aspect         | Traditional AI                                   | Generative AI                                             |
+| -------------- | ------------------------------------------------ | --------------------------------------------------------- |
+| Main purpose   | Predicts, classifies, or makes decisions         | Creates new content                                       |
+| Data input     | Usually structured or labeled data               | Can work with text, images, audio, video, and other data  |
+| Output         | Usually a fixed prediction, class, or score      | New text, images, audio, video, or code                   |
+| Creativity     | Limited because outputs are usually predefined   | Can generate creative and original-looking content        |
+| Working method | Learns patterns to make predictions or decisions | Learns patterns and distributions to generate new content |
+| Example        | Spam email detection                             | Generating an email using ChatGPT                         |
+| Example models | Decision Tree, SVM, Random Forest                | GPT, GAN, VAE, Diffusion Models                           |
+
+**Simple difference:** Traditional AI generally answers **"What is this?"** or **"What will happen?"**, while Generative AI can answer **"Create something new based on this."**
+
+---
+
+Task 3: Five Popular Apps or Features That May Use GenAI
+
+1. Instagram Reels — Likely uses GenAI
+
+GenAI can help create captions, hashtags, video descriptions, and creative content suggestions. It can also help users generate or edit visual content based on text prompts.
+
+2. Spotify — Likely uses GenAI
+
+Spotify can use AI to understand natural-language requests and create personalized playlist ideas. For example, a user could ask for "a relaxing playlist for studying on a rainy evening."
+
+3. Zomato Chatbot — Likely uses GenAI
+
+A GenAI chatbot can understand natural-language food requests such as "Find me a vegetarian restaurant under ₹500." It can understand the user's intent and generate a natural response instead of only matching predefined keywords.
+
+4. YouTube Video Summaries — Likely uses GenAI
+
+GenAI can analyze the transcript or content of a long video and generate a short summary containing the most important points. This saves users time when they do not want to watch the complete video.
+
+5. Flipkart Product Images/Descriptions — Likely uses GenAI
+
+GenAI can help create product descriptions, marketing content, or generate/edit product images. For example, a product photo could be placed into a different background or an attractive product description could be automatically generated.
+
+---
+
+Task 4: GenAI-Generated Poem About Zomato
+
+### Prompt Used
+
+Write a short and creative 5-line poem about Zomato, a food delivery app. Make the poem simple, fun, and suitable for a student assignment.
+
+### ChatGPT Output
+
+> Zomato brings my favorite food to my door,
+> With tasty choices, I can always explore.
+> From spicy pizza to desserts so sweet,
+> A few simple clicks bring a delicious treat.
+> Zomato makes every hungry moment complete!
+
+### How did GenAI create something new?
+
+The AI did not simply retrieve a fixed poem from a database. It understood the prompt, identified the topic as Zomato and food delivery, and generated new lines based on patterns it learned from language and poetry. It combined words, ideas, and rhymes to create a new poem that matched the instructions.

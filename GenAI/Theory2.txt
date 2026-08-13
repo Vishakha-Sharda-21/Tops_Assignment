@@ -1,0 +1,64 @@
+Task 1: Traditional AI/ML vs Generative AI
+
+| Aspect                 | Traditional AI/ML                                                               | Generative AI                                                                                      |
+| ---------------------- | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| **Data requirements**  | Usually needs structured or labeled data for a specific task.                   | Usually trained on very large and diverse datasets such as text, images, audio, or code.           |
+| **Output type**        | Produces predictions, classifications, scores, or recommendations.              | Produces new content such as text, images, audio, video, or code.                                  |
+| **Human interaction**  | Usually works with predefined inputs and rules or specific features.            | Can understand natural-language prompts and have flexible conversations.                           |
+| **Adaptability**       | Usually designed for a specific task and may need retraining for major changes. | Can perform many related tasks using different prompts without changing the model.                 |
+| **Creativity**         | Mainly identifies patterns and makes predictions from existing data.            | Can generate new and creative-looking content based on learned patterns.                           |
+| **Example: Instagram** | Predicts which posts or Reels a user may like.                                  | Can generate captions, creative content, or image-editing effects.                                 |
+| **Example: Zomato**    | Predicts which restaurants a user may prefer based on previous orders.          | Can understand requests such as "Find me a quiet vegetarian restaurant under ₹500."                |
+| **Example: Spotify**   | Recommends songs based on listening history.                                    | Can create a playlist from a natural-language request such as "Make me a relaxing study playlist." |
+
+### Simple difference
+
+Traditional AI/ML mainly **predicts or classifies**, while Generative AI **creates new content and provides flexible responses**.
+
+---
+
+Task 2: Zomato Restaurant Recommendation
+
+If Zomato recommends restaurants based on my previous orders, it is primarily an example of **traditional AI/ML**. The system can analyze my previous orders, preferred cuisines, ratings, prices, and other behavior to predict which restaurants I may like. A recommendation algorithm then ranks suitable restaurants and displays them to me. Since the system is mainly predicting preferences rather than generating new content, it is considered traditional AI/ML.
+
+---
+
+Task 3: Improving Spotify with Generative AI
+
+I would improve Spotify's song recommendation feature by adding a **Generative AI Playlist Creator**. Instead of only recommending songs based on listening history, users could describe what they want in natural language. For example, a user could type, "Create a relaxing playlist for studying on a rainy evening." GenAI could understand the mood, activity, and context and create a personalized playlist with a suitable name and description. This would make Spotify's recommendations more interactive and flexible.
+
+---
+
+Task 4: Flipkart Customer Support — Traditional AI/ML vs GenAI
+
+### Traditional AI/ML Approach
+
+**1. Rule-based responses:**
+The chatbot can identify keywords such as "refund," "delivery," or "cancel order" and provide a predefined response from an FAQ database.
+
+**2. Intent classification:**
+An ML model can classify the user's query into an intent such as "track order," "request refund," or "cancel order" and then provide the appropriate predefined response.
+
+### Generative AI Approach
+
+**1. Flexible natural-language responses:**
+GenAI can understand complete and conversational questions instead of depending only on keywords. For example, it can understand: "My order was supposed to arrive yesterday, but I still haven't received it. Can you check what happened?"
+
+**2. Context-aware response generation:**
+GenAI can combine information from the user's order database, company policies, and the conversation to generate a personalized response instead of selecting only a fixed answer.
+
+### Example
+
+**Traditional AI/ML:**
+
+> User: "Where is my order?"
+> Chatbot: "Please enter your order ID."
+
+**GenAI:**
+
+> User: "My order was supposed to arrive yesterday and I still haven't received it. Can you check?"
+> Chatbot: "Sure. Your order is currently out for delivery and is expected to arrive today."
+
+### Key difference
+
+Traditional AI generally **selects or predicts an appropriate response**, while GenAI can **understand the context and dynamically generate a natural response**.
