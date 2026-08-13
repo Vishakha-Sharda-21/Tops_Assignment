@@ -1,0 +1,157 @@
+Task 1: Three Daily Apps and Generative AI Features
+
+1. Instagram — AI Caption and Content Generator
+
+Instagram could use Generative AI to create captions for photos and Reels instead of showing users a fixed list of captions. The AI could understand the image, mood, and user's instructions and generate different caption styles such as funny, professional, romantic, or motivational.
+
+**Example:**
+User uploads a sunset photo and asks: "Give me a short poetic caption."
+
+GenAI could generate:
+**"Chasing sunsets, collecting moments."**
+
+---
+
+2. Zomato — AI Restaurant Recommendation Assistant
+
+Zomato could use Generative AI to understand natural-language requests instead of relying only on predefined filters. A user could say, "Find me a good vegetarian restaurant for a family dinner under ₹1,000," and the AI could understand the budget, food preference, and purpose of the meal and provide personalized suggestions.
+
+**Example:**
+User: "I want spicy vegetarian food for two people under ₹500."
+
+The AI could understand these requirements and recommend suitable restaurants and dishes.
+
+---
+
+3. Spotify — AI Playlist Generator
+
+Spotify could use Generative AI to create playlists from natural-language descriptions. Instead of manually selecting songs, a user could describe the mood or activity and let AI create a suitable playlist.
+
+**Example:**
+User: "Create a relaxing playlist for studying late at night."
+
+GenAI could understand the mood and activity and generate a personalized playlist.
+
+---
+
+## Task 2: Discriminative Models vs Generative Models
+
+| Aspect                  | Discriminative Models                                                                        | Generative Models                                                     |
+| ----------------------- | -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| **Definition**          | Learn the relationship between input data and output labels and distinguish between classes. | Learn patterns or the distribution of data and can generate new data. |
+| **Main use**            | Classification, prediction, and decision-making.                                             | Generating new text, images, audio, video, or other content.          |
+| **Example task**        | Determine whether an email is spam or not spam.                                              | Generate a new email or write a reply.                                |
+| **Output**              | Usually a class, label, probability, or numerical prediction.                                | New content that resembles the patterns learned during training.      |
+| **Example model**       | Logistic Regression, SVM, Decision Tree, Random Forest.                                      | GPT, GAN, VAE, Diffusion Models.                                      |
+| **Example application** | Spotify predicting which songs a user may like.                                              | ChatGPT generating a personalized music playlist description.         |
+
+Simple Explanation
+
+A **discriminative model** mainly answers:
+
+> "Which category does this data belong to?"
+
+A **generative model** mainly answers:
+
+> "Can I create new data that follows the patterns I have learned?"
+
+**Example:**
+
+```text
+Discriminative:
+Image → Model → Cat
+
+Generative:
+Text Prompt → Model → New Cat Image
+```
+
+---
+
+## Task 3: Flipkart Gadget Product Description
+
+Fictional Gadget
+
+**Product Name:** SmartGlow DeskHub
+
+SmartGlow DeskHub is an AI-powered smart desk accessory designed for students, programmers, and professionals. It combines a wireless charging pad, adjustable LED desk light, digital clock, and voice-controlled AI assistant in one compact device.
+
+Prompt Used
+
+Create a professional and attractive Flipkart product description for a fictional gadget called "SmartGlow DeskHub". It is an AI-powered smart desk accessory designed for students, programmers, and professionals. The device includes a wireless charging pad, adjustable LED desk light, digital clock, and voice-controlled AI assistant. Highlight its practical benefits, modern design, convenience, and productivity features. Use simple language suitable for Indian online shoppers. Make the description exciting but realistic and keep it under 150 words. End with a catchy one-line tagline.
+
+ChatGPT Output
+
+**SmartGlow DeskHub – Your Smarter Desk Companion**
+
+Upgrade your workspace with the **SmartGlow DeskHub**, an all-in-one smart desk accessory designed for modern students, programmers, and professionals. Its sleek design combines a **wireless charging pad, adjustable LED desk light, digital clock, and voice-controlled AI assistant** in one compact device.
+
+Charge your smartphone wirelessly while the adjustable LED light provides comfortable illumination for studying, coding, or working late at night. The built-in digital clock keeps you on schedule, while the voice-controlled AI assistant helps you manage simple tasks and reminders without interrupting your workflow.
+
+Compact, stylish, and practical, SmartGlow DeskHub keeps your essential desk features within easy reach.
+
+**SmartGlow DeskHub — Charge. Light. Organize. Work Smarter.**
+
+Why the detailed prompt is useful
+
+The prompt provides the AI with:
+
+1. The product name.
+2. The target customers.
+3. The product features.
+4. The desired writing style.
+5. The target audience.
+6. A word limit.
+7. The desired ending.
+
+Therefore, the AI can generate a more specific and useful product description.
+
+---
+
+## Task 4: New Generative AI Feature
+
+Application Selected: Text Generation
+
+App: Zomato
+
+I would add a **Generative AI Food Assistant** to Zomato. Instead of searching using multiple filters, users could simply describe what they want in natural language. For example, a user could type, "I want a healthy vegetarian dinner for two people under ₹800, preferably somewhere quiet." The Generative AI model would understand the user's requirements, identify the important preferences, and use restaurant information to generate personalized recommendations. It could also explain why each restaurant is suitable for the user's request.
+
+How Generative AI would power the feature
+
+text
+User's Natural-Language Request
+            ↓
+      Generative AI Model
+            ↓
+Understand User Intent
+            ↓
+Budget + Cuisine + Location + Preferences
+            ↓
+Restaurant Database
+            ↓
+Personalized AI Response
+
+
+Example
+
+**User:**
+
+> "I want a good Italian dinner for two under ₹1,000."
+
+**AI Assistant:**
+
+> "Here are three Italian restaurants that fit your budget. I recommend Pizza Palace because it has several Italian options for two people within ₹900 and has good customer ratings."
+
+Why GenAI is better here
+
+A traditional rule-based system may require the user to manually select:
+
+* Cuisine → Italian
+* Price → Under ₹1,000
+* People → 2
+* Restaurant type → Dinner
+
+With GenAI, the user can simply **describe their requirements naturally**, and the AI can understand the request and generate a personalized response.
+
+Conclusion
+
+Generative AI can make everyday applications more interactive and user-friendly because users do not always need to follow predefined commands or filters. It can understand natural language and generate responses or content based on the user's specific needs.
