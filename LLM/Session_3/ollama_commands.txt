@@ -1,0 +1,6 @@
+ollama --version
+ollama pull llama2
+ollama run llama2
+>>> Suggest 5 new features for a food delivery app like Zomato that use AI.
+>>> /bye
+ollama list

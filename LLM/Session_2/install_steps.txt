@@ -1,0 +1,7 @@
+# Run in terminal / command prompt
+python -m venv venv
+venv\Scripts\activate          (Windows)   |   source venv/bin/activate  (Mac/Linux)
+pip install transformers torch sentencepiece
+python task1_gpt2_caption.py
+python task2_bert_sentiment.py
+python task3_t5_paraphrase.py
