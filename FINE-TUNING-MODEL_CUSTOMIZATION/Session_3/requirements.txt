@@ -1,0 +1,7 @@
+torch
+transformers
+peft
+accelerate
+datasets
+psutil
+bitsandbytes   # only for QLoRA (needs NVIDIA GPU; Linux/WSL/Colab recommended)
